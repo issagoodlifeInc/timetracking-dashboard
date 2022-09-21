@@ -1,0 +1,28 @@
+{
+  "name": "timetdashboard",
+  "version": "1.0.0",
+  "description": "Frontend Mentor Time Tracking Dashboard Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/issagoodlifeInc/timetracking-dashboard.git"
+  },
+  "keywords": [
+    "time",
+    "tracking"
+  ],
+  "author": "Lesley Kimutai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/issagoodlifeInc/timetracking-dashboard/issues"
+  },
+  "homepage": "https://github.com/issagoodlifeInc/timetracking-dashboard#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  }
+}
