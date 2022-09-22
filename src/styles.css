@@ -7,10 +7,8 @@
 }
 
 :root {
-
     /* ### Primary */
     --blue: hsl(246, 80%, 60%);
-
 
     --lightred: hsl(15, 100%, 70%);
     /*(work)*/
@@ -28,33 +26,32 @@
     /* ### Neutral */
 
     --verydarkblue: hsl(226, 43%, 10%);
+    /* bg -body */
     --darkblue: hsl(235, 46%, 20%);
+    /* main hour divs */
     --desaturatedblue: hsl(235, 45%, 61%);
+    /* Hover on divs */
     --paleblue: hsl(236, 100%, 87%);
 }
 
 body {
     /* Weights: 300, 400, 500 */
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
     /* :-> card titles e.g. Work, Play*/
     font-size: 18px;
     background: var(--verydarkblue);
 }
 
-
-
-
-
-
-
-
-
-
 .attribution {
     font-size: 11px;
     text-align: center;
+    color: var(--paleblue);
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+    color: var(--lightred);
 }
