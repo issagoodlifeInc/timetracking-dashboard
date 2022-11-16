@@ -1,60 +1,49 @@
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
+  /* ### Primary */
+  --blue: hsl(246, 80%, 60%);
 
-    /* ### Primary */
-    --blue: hsl(246, 80%, 60%);
+  --lightred: hsl(15, 100%, 70%);
+  /*(work)*/
+  --softblue: hsl(195, 74%, 62%);
+  /*(play) */
+  --lightred: hsl(348, 100%, 68%);
+  /* (study)*/
+  --limegreen: hsl(145, 58%, 55%);
+  /* (exercise)*/
+  --violet: hsl(264, 64%, 52%);
+  /* (social)*/
+  --softorange: hsl(43, 84%, 65%);
+  /* (self care)*/
 
+  /* ### Neutral */
 
-    --lightred: hsl(15, 100%, 70%);
-    /*(work)*/
-    --softblue: hsl(195, 74%, 62%);
-    /*(play) */
-    --lightred: hsl(348, 100%, 68%);
-    /* (study)*/
-    --limegreen: hsl(145, 58%, 55%);
-    /* (exercise)*/
-    --violet: hsl(264, 64%, 52%);
-    /* (social)*/
-    --softorange: hsl(43, 84%, 65%);
-    /* (self care)*/
-
-    /* ### Neutral */
-
-    --verydarkblue: hsl(226, 43%, 10%);
-    --darkblue: hsl(235, 46%, 20%);
-    --desaturatedblue: hsl(235, 45%, 61%);
-    --paleblue: hsl(236, 100%, 87%);
+  --verydarkblue: hsl(226, 43%, 10%);
+  --darkblue: hsl(235, 46%, 20%);
+  --desaturatedblue: hsl(235, 45%, 61%);
+  --paleblue: hsl(236, 100%, 87%);
 }
 
 body {
-    /* Weights: 300, 400, 500 */
-    font-family: 'Rubik', sans-serif;
-    /* :-> card titles e.g. Work, Play*/
-    font-size: 18px;
-    background: var(--darkblue);
+  /* Weights: 300, 400, 500 */
+  font-family: "Rubik", sans-serif;
+  /* :-> card titles e.g. Work, Play*/
+  font-size: 18px;
+  background-color: var(--darkblue);
 }
 
-
-
-
-
-
-
-
-
-
 .attribution {
-    font-size: 11px;
-    text-align: center;
+  font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
