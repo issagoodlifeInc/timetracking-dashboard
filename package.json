@@ -12,16 +12,8 @@
     "type": "git",
     "url": "git+https://github.com/issagoodlifeInc/timetracking-dashboard.git"
   },
-  "keywords": [
-    "time",
-    "tracking"
-  ],
   "author": "Lesley Kimutai",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/issagoodlifeInc/timetracking-dashboard/issues"
-  },
-  "homepage": "https://github.com/issagoodlifeInc/timetracking-dashboard#readme",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
