@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer class="attribution">
+    <footer className="attribution">
       Challenge by{" "}
       <a
         href="https://www.frontendmentor.io?ref=challenge"
