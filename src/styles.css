@@ -32,6 +32,8 @@
   --desaturatedblue: hsl(235, 45%, 61%);
   /* Hover on divs */
   --paleblue: hsl(236, 100%, 87%);
+
+  --white: #ffff;
 }
 
 body {
@@ -39,7 +41,109 @@ body {
   font-family: "Rubik", sans-serif;
   /* :-> card titles e.g. Work, Play*/
   font-size: 18px;
-  background: var(--verydarkblue);
+  background-color: var(--verydarkblue);
+  color: #fff;
+}
+
+p {
+  font-size: 0.8rem;
+  color: var(--paleblue);
+}
+
+/* <<<>>>>>>>>>>>>>> User <<<>>>>>>>>>>>>>>*/
+.user {
+  background-color: var(--darkblue);
+  width: min(300px, 100vw - 2rem);
+  margin-inline: auto;
+  /* padding: 1.5rem; */
+  border-radius: 10px;
+}
+
+.user img {
+  width: 90px;
+  border-radius: 50%;
+  border: 4px solid var(--white);
+}
+
+.user h1 {
+  font-size: clamp(2rem, 4vw);
+}
+
+.user_details {
+  background-color: var(--blue);
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  gap: 1rem;
+  border-radius: 10px;
+}
+
+.btns {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btns button {
+  font-family: inherit;
+  border: none;
+  color: var(--desaturatedblue);
+  background: none;
+}
+
+.btns button:hover {
+  color: var(--paleblue);
+}
+
+/* <<<>>>>>>>>>>>>>> User <<<>>>>>>>>>>>>>>*/
+
+@media screen and (width > 600px) {
+  .user_details {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .user {
+    width: min(250px, 100vw - 2rem);
+    grid-column: 1/3;
+  }
+
+  main {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: min(500px, 100vw - 2rem);
+    margin-inline: auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    /* >>>>>>>>>>>>>>>>>>>>>>To remove main margin ?>>>>>>>>>>>>>*/
+    margin-block-start: 3rem;
+    margin-block-end: 2rem;
+  }
+}
+@media screen and (width > 800px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .user {
+    grid-column: 1/1;
+    grid-row: 1/3;
+  }
+  .btns {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  main {
+    width: min(700px, 100vw - 2rem);
+    grid-template-columns: repeat(4, 1fr);
+    /* >>>>>>>>>>>>>>>>>>>>>>To remove main margin ?>>>>>>>>>>>>>*/
+    margin-block-start: 15vh;
+  }
 }
 
 .attribution {
