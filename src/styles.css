@@ -178,7 +178,7 @@ main :nth-child(7)::before {
   max-width: 1.5rem;
 }
 
-.top--card h4 {
+.top--card h3 {
   font-weight: 400;
 }
 

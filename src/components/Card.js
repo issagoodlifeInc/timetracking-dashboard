@@ -5,7 +5,7 @@ const Card = ({ title, current, lastweek }) => {
   return (
     <div className="card">
       <div className="top--card">
-        <h4 className="card--title">{title}</h4>
+        <h3 className="card--title">{title}</h3>
         <img src={ellipsis} alt="" />
       </div>
 
