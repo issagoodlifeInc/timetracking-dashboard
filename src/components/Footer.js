@@ -13,7 +13,7 @@ const Footer = () => {
       </a>
       . Coded by{" "}
       <a
-        href="https://leskimfamily.herokuapp.com/"
+        href="https://www.frontendmentor.io/profile/Leskim"
         target="_blank"
         rel="noreferrer"
       >

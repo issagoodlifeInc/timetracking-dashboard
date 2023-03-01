@@ -2,9 +2,6 @@ import React from "react";
 import ellipsis from "../images/icon-ellipsis.svg";
 
 const Card = ({ title, current, lastweek }) => {
-  // const bgStyle = {
-  //   display: title === "Work" ? "none" : "block",
-  // };
   return (
     <div className="card">
       <div className="top--card">
