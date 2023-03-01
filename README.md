@@ -16,8 +16,6 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
     - [Continued development](#continued-development)
   - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -36,7 +34,7 @@ Mockup screenshot :-
 ### Links
 
 - Solution URL: [Github Link](https://github.com/issagoodlifeInc/timetracking-dashboard.git)
-- Live Site URL: [hereAdd live site URL ](https://your-live-site-url.com)
+- Live Site URL: [Time Tracking (Netlify)](https://timetrackdash.netlify.app/)
 
 ## My process
 
@@ -145,6 +143,5 @@ Writing better code .. I repeated similar styles to handle the color of the btns
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Leskim](https://www.frontendmentor.io/profile/Leskim)
 
